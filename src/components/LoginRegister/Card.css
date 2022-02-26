@@ -1,0 +1,121 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #333333;
+}
+.form__card {
+    border: 1px solid #128C7E;
+    padding: 60px;
+    width: 473px;
+    border-radius: 24px;
+   
+}
+.form__title{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 34px;
+}
+
+.form__title p{
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 4px;
+}
+
+.form__header{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    padding-bottom : 15px;
+}
+.form__text {
+    font-weight: 400;
+    line-height: 22px;
+    padding-bottom: 20px;
+}
+
+.card__input {
+    height: 48px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #bbbbbb;
+    padding-left: 46px;
+    margin: 8px 0;
+}
+
+.input__div-1, .input__div-2{
+    position: relative;
+}
+
+.input__div-1 .envelope, .input__div-2 .lock{
+    position: absolute;
+    z-index: 10;
+    top: 25px;
+    left: 25px;
+}
+
+.card__button {
+    background-color: #128C7E;
+    color: white;    
+    padding: 12px 24px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.card__button:hover{
+    border: 1px solid #128C7E;
+    color: #128C7E;
+    background-color: white;
+    transition: 0.2s;
+}
+
+.card__button .button__text{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.social__links{
+    text-align: center;
+}
+.social__links p{
+    font-size: 14px;
+    color: #828282;
+}
+.social__links p a{
+    text-decoration: none;
+    color: #2F80ED;
+}
+.social__media{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 27px;
+}
+.social__media a svg{
+    height: 18px;
+    fill: #828282;
+    width: 17.5px;
+}
+
+.social__media a span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social__media a{
+    margin: 20px 10px 0 0;
+    border: 1px solid #828282;
+    border-radius: 100%;
+    padding: 15px;
+    height: 42px;
+    width: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

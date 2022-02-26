@@ -1,0 +1,61 @@
+.homenav__container{
+ display: flex;
+ justify-content: space-between;
+ padding: 10px 10px;
+}
+.homenav__container-left{
+ display: flex;
+ gap: 1em;
+ align-items: center;
+}
+.homenav__container-statusName{
+ display: flex;
+ align-items: center;
+ gap: 0.8em;
+}
+.homenav__container-statusIcon{
+ display: flex;
+ gap: 0.5em;
+ align-items: center;
+}
+.homenav__container-right{
+ display: flex;
+ gap: 3em;
+}
+
+
+
+
+
+
+
+
+/* ADDED CSS BY MATTHEW */
+.friend___profile{
+    /* background-color: hotpink !important; */
+    width: 30%!important;
+
+}
+.friend__profilePic{
+    /* background-color:red; */
+    align-content: center !important;
+    color: black !important;
+}
+.friend__profilePic img{
+       height: 200px;
+       width: 200px;
+        border-radius: 45% !important;
+
+}
+
+.friend__profilePic img :hover{
+       height: 200px;
+       width: 200px;
+        border-radius: 45% !important;
+        
+}
+.Name__text{
+    color: black !important;
+    position: relative; 
+    
+}

@@ -1,0 +1,32 @@
+.messageText {
+  background-color: #ffffff;
+  padding: 16px 24px;
+  border-radius: 16px 16px 16px 0px;
+  width: fit-content;
+}
+
+.messageText.sender {
+  background-color: #c0ece7;
+  margin-left: auto;
+}
+
+.homebody__imageContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  text-align: left;
+  gap: 0.5em;
+  flex-wrap: wrap;
+}
+
+.homebody__image {
+  flex: 0.5;
+}
+
+.encrypted {
+  margin: auto;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+
+  text-align: center;
+}
